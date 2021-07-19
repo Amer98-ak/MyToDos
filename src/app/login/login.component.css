@@ -1,0 +1,131 @@
+.container{
+    color: #011F4B;
+    overflow: hidden;
+}
+.LoginPosition{
+    margin-top: 133px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .LoginPosition {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+.UsrHead:hover{
+    border: 2px solid #0DB2F2;
+    border-radius: 10px;
+}
+.UsrBody{
+    padding-bottom: 4px;
+}
+.UsrBody:hover{
+    padding-bottom: 0px;
+    border: 2px solid #0DB2F2;
+    border-radius: 20px 20px 0px 0px;
+}
+.LogTitile{
+    font-size: 36px;
+    font-weight: 700;
+}
+label{
+    margin-top: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 375px;
+}
+@media only screen and (max-width: 600px) {
+    label {
+        margin-right: 275px;
+    }
+  }
+input{
+    width: 450px;
+    height: 56px;
+    font-size: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F3F6F9;
+    color: #B5B5C3;
+    border: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    input {
+        width: 350px;
+    }
+  }
+  .FgtPassword{
+    margin-top: 18px;
+    font-size: 14px;
+    color: #B5B5C3;
+    margin-left: 350px;
+  }
+  @media only screen and (max-width: 600px) {
+    .FgtPassword {
+        margin-left: 250px;
+    }
+  }
+  .btn{
+    margin-top: 48px;
+    width: 450px;
+    height: 56px;
+    background-color: #0DB2F2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .btn {
+        width: 350px;
+    }
+  }
+  .signUp{
+    margin-top: 28px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0DB2F2;
+  }
+  .OrSignUpUsing{
+    margin-top: 43px;
+    font-size: 14px;
+    color: #B5B5C3;
+  }
+  .icons{
+    padding-left: 14px;
+  }
+  @media only screen and (max-width: 600px) {
+    .icons {
+        padding-left: 5px;
+    }
+  }
+  .container-fluid{
+    margin-top: 51px;
+    position: relative;
+  }
+  .FooterleftText{
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+    color: #005B96;
+    margin-left: 60px;
+  }
+  .FooterRightText{
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+    color: #005B96;
+    margin-right: 60px;
+    right: 0;
+  }
+  @media only screen and (max-width: 600px) {
+    .FooterRightText {
+      margin: 0;
+      right: 10px;
+    }
+    .FooterleftText{
+      margin: 0;
+    }
+  }

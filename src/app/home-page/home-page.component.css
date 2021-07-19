@@ -1,0 +1,361 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0DB2F2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 107px;
+    overflow: hidden;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    padding-top: 51px;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    left: 0;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .hr{
+    border-top: 4px solid #fff;
+    border-radius: 20px;
+    width: 47px;
+    margin-top: 8px;
+  }
+  .hr2{
+    margin-top: 8px;
+    border-top: 4px solid #fff;
+    border-radius: 20px;
+    width: 29px;
+  }
+  .icons{
+      width: 26px;
+      height: 36px;
+      position: relative;
+  }
+  .badge {
+    top: 145px;
+    margin-right: 20px;
+    position: absolute;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: #FF7A00;
+    color: white;
+  }
+  .icosText{
+    position: fixed;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .icosTextNot{
+    position: fixed;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+    margin-left: 45px;
+    margin-top: 10px;
+  }
+  .hr3{
+    position: absolute;
+    border-top: 2px solid #fff;
+    width: 96px;
+    left: 0;
+  }
+  .setingIcon{
+      position: absolute;
+      top: 95%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  }
+  .icosTextSetting{
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+    margin-left: 70px;
+    top: 95%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .topNav{
+      height: 123px;
+      background-color:#F3F6F9;
+  }
+  .topNavTitle{
+      font-weight: bold;
+      color: #9B9BA4;
+      font-size: 24px;
+      margin: 30px 0px 0px 68px;
+  }
+  .logedUser{
+      position: absolute;
+      right: 120px;
+      top: 33px;
+  }
+  .logedUserText{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin: -40px 16px;
+  }
+  .UsrHead{
+    position: absolute;
+    right: 48px;
+    top: 43px;
+  }
+  .UsrBody{
+    position: absolute;
+    right: 37px;
+    top: 63px;
+  }
+  label{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  input{
+    width: 257px;
+    height: 45px;
+    background: #F3F6F9;
+    border: none;
+    border-radius: 10px;
+  }
+  .container{
+      margin-top: 28px;
+  }
+  .toDoInputs{
+    display:inline-block;
+    margin-left: 36px;
+  }
+  .toDoSelect{
+    width: 257px;
+    height: 45px;
+    background: #F3F6F9;
+    border: none;
+    border-radius: 10px;
+  }
+.box{
+    position: relative;
+    width: 595px;
+    height: 88px;
+    background: #F3F6F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 67px 40px;
+}
+.badgeOnBox{
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+.logUser1{
+    width: 42px;
+    height: 42px;
+}
+.logUserTextInBox{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin: -33px 12px;
+}
+.moreInfo{
+    position: absolute;
+    right: 10px;
+    top: 41px;
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    border: 2px solid #0DB2F2;
+}
+.moreInfo1{
+    position: absolute;
+    right: 20px;
+    top: 41px;
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    border: 2px solid #0DB2F2;
+}
+.moreInfo2{
+    position: absolute;
+    right: 30px;
+    top: 41px;
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    border: 2px solid #0DB2F2;
+}
+.moreInfoShow{
+    position: absolute;
+    right: 104px;
+}
+.badgeInBox{
+  position: absolute;
+  right: 24px;
+  top: 15px;
+}
+.logUserTextInBox1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin: -42px 16px;
+}
+.boxTitle{
+  position: absolute;
+  left: 45px;
+  top: 32px;
+  font-size: 20px;
+  color: #9B9BA4;
+}
+.boxSubtitle{
+  position: absolute;
+  left: 46px;
+  top: 61px;
+  font-size: 10px;
+  color: #9B9BA4;
+}
+.boxProgress{
+  position: absolute;
+  left: 273px;
+  top: 40px;
+  font-size: 10px;
+  color: #9B9BA4;
+}
+.box2{
+  position: relative;
+    width: 595px;
+    height: 186px;
+    background: #F3F6F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 67px 40px;
+}
+.boxText{
+  font-size: 13px;
+  color: #9B9BA4;
+  position: absolute;
+  top: 101px;
+  left: 46px;
+  right: 40px;
+}
+.boxDeleteText{
+  font-size: 13px;
+  color: #9B9BA4;
+  position: absolute;
+  top: 158px;
+  left: 46px;
+}
+.boxFullDesc{
+  font-size: 13px;
+  color: #9B9BA4;
+  position: absolute;
+  top: 158px;
+  right: 30px;
+}
+.mobileMenu{
+  position: absolute;
+  right: 230px;
+  top: 40px;
+  display: none;
+}
+@media screen and (max-height: 450px) {
+  .mobileMenu {display: block;}
+}
+.hrOnMobile{
+  border-top: 4px solid #0DB2F2;
+    border-radius: 20px;
+    width: 47px;
+    margin-top: 8px;
+}
+.hr2OnMobile{
+  margin-top: 8px;
+    border-top: 4px solid #0DB2F2;
+    border-radius: 20px;
+    width: 29px;
+}
+@media screen and (max-height: 450px) {
+  .box {width: 300px;}
+}
+.toDoInputsPopUp{
+  position: absolute;
+  left: 25px;
+  width: 450px;
+  height: 45px;
+}
+.LabelRow{
+  margin: 5px 12px;
+}
+.toDoSelectPopUp{
+    width: 450px;
+    height: 45px;
+    background: #F3F6F9;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 12px;
+}
+textarea{
+  width: 450px;
+    height: 307px;
+    background: #F3F6F9;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 12px;
+}
+.btnAdd{
+  width: 177px;
+  height: 49.31px;
+  background: #0DB2F2;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delete{
+  position: absolute;
+  right: 7px;
+  color: red;
+}
